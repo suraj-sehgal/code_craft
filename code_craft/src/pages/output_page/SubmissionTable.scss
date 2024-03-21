@@ -1,0 +1,51 @@
+.table-container {
+    height: 30vh;
+    overflow-x: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    overflow-y: scroll;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+  
+  .submission-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+
+  .submission-table th,
+  .submission-table td {
+    padding: 4px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .submission-table th {
+    background-color: #999999;
+  }
+  
+  .even-row {
+    background-color: #f9f9f9;
+  }
+  
+  .odd-row {
+    background-color: #ffffff;
+  }
+
+  button{
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
+
+  button:hover{
+    cursor: pointer;
+    background-color: #666666;
+  }
+  

@@ -1,0 +1,72 @@
+.container{
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  bottom: 0;
+
+
+  .formContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+
+    .subContainer{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      .input-field {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+    }
+
+    #section1{
+      width: 30%;
+      padding:15px
+
+    }
+    #section2{
+      width: 70%;
+      gap: 10px;
+
+      #group1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+      }
+
+      select{
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      button{
+        height: 40px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+
+      }
+
+      button:hover{
+        cursor: pointer;
+        background-color: #666666;
+      }
+    }
+
+    .formGroup{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+}
